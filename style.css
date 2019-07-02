@@ -1,0 +1,430 @@
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('opensans-bold-webfont.woff2') format('woff2'),
+         url('opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansbold_italic';
+    src: url('opensans-bolditalic-webfont.woff2') format('woff2'),
+         url('opensans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans_extraboldregular';
+    src: url('opensans-extrabold-webfont.woff2') format('woff2'),
+         url('opensans-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans_extrabolditalic';
+    src: url('opensans-extrabolditalic-webfont.woff2') format('woff2'),
+         url('opensans-extrabolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('opensans-italic-webfont.woff2') format('woff2'),
+         url('opensans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans_lightregular';
+    src: url('opensans-light-webfont.woff2') format('woff2'),
+         url('opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans_lightitalic';
+    src: url('opensans-lightitalic-webfont.woff2') format('woff2'),
+         url('opensans-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.woff2') format('woff2'),
+         url('opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans_semiboldregular';
+    src: url('opensans-semibold-webfont.woff2') format('woff2'),
+         url('opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sans_semibolditalic';
+    src: url('opensans-semibolditalic-webfont.woff2') format('woff2'),
+         url('opensans-semibolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'playfair_display_blackregular';
+    src: url('playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('playfairdisplay-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_display_blackitalic';
+    src: url('playfairdisplay-blackitalic-webfont.woff2') format('woff2'),
+         url('playfairdisplay-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displaybold_italic';
+    src: url('playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('playfairdisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displayitalic';
+    src: url('playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background-color: #3e3b4a;
+}
+.wrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #797681;
+    text-align: center;
+    margin-top: 77px;
+    margin-bottom: 77px;
+    align-items: center;
+}
+.header-menu, .header-button-search{
+
+}
+.header-menu a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 34px;
+    background: url('img/Menu\ icon.png') no-repeat left center;
+    font-size: 12px;
+    text-decoration: none;  
+    text-transform: uppercase; 
+    font-family: 'open_sansbold', sans-serif;
+}
+.header-logo-text{
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 13px;
+
+}
+.header-logo{
+    margin-bottom: 8px;
+}
+.header-button-search a{
+    padding-right: 34px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: url('img/search.png') no-repeat right center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'open_sansbold', sans-serif;
+}
+.home{
+    background: url('img/Shape\ 1.jpg') no-repeat center center;
+    padding-bottom: 40px;
+}
+.text{
+    font-family: 'open_sansbold', sans-serif;
+    font-size: 14px;
+    color: #ffc7b0;
+    padding-top: 28px;
+    padding-left: 43px;
+    text-transform: uppercase;
+}
+.home-headline{
+    font-family: 'open_sansbold', sans-serif;
+    font-size: 72px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 43px;
+}
+.home-decsr{
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    padding-left: 43px;
+    
+}
+.button{
+    font-family: 'open_sansbold', sans-serif;
+    font-size: 20px;
+    border: 3px solid #ffe18e;
+    line-height: 40px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.read-more-button{
+    width: 127px;
+    margin-top: 75px;
+    color: #ffffff;
+    margin-left: 43px;
+}
+.content{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.accessories{
+    background: url('img/Vector\ Smart\ Object.jpg') no-repeat center center;
+    width: 60%;
+    margin-right: 2%;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.accessories-headline{
+    font-family: 'open_sansbold', sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+    margin-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.accessories-decsr{
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 24px;
+    margin-left: 43px;
+    color: #ffffff;
+    margin-bottom: 196px;
+}
+
+.Subscribe{
+    width: 38%;
+    background: #eb7b61;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Subscribe-headline{
+    font-family: 'playfair_displayregular', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffd9d1;
+    margin-top: 78px;
+    margin-bottom: 0;
+}
+.Subscribe-decsr{
+    font-family: 'playfair_displayregular', sans-serif;
+    font-size: 24px;
+    color: #ffd9d1;
+    margin-bottom: 43px;
+}
+.Subscribe-form{
+    display: inline-block;
+    font-family: 'open_sansbold', sans-serif;
+    color: #ffd9d1;
+    line-height: 42px;
+    font-size: 20px;
+    border: 3px solid #ffd9d1;
+    width: 75%;
+    margin-bottom: 20px;
+}
+.Subscribe-button a{
+    display: inline-block;
+    font-family: 'open_sansbold', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #66689c;
+    width: 75%;
+    line-height: 42px;
+    margin-bottom: 30px;
+}
+.Subscribe-text{
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 14px;
+    color: #ffd9d1;
+}
+.review-cameras{
+    width: 25.4%;
+    background: url('img/Cameras.jpg') no-repeat center center;
+    margin-left: 0;
+    margin-right: 2%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.text-review{
+    padding-left: 0;
+}
+.review-headline-cameras{
+    font-family: 'open_sansbold', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 144px;
+    margin-bottom: 120px;
+    
+
+}
+.review-button{
+    display: inline-block;
+    width: 93px;
+    background: #ffe18e;
+}
+.review-sound{
+    width: 25.4%;
+    margin-left: 0;
+    margin-right: 2%;
+    background: url('img/Shape\ 5.jpg') no-repeat center center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.review-headline-sound{
+    font-family: 'open_sansbold', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 125px;
+    margin-bottom: 95px;
+
+}
+.cameras{
+    width: 45.2%;
+    background: url('img/Vector\ Smart\ Object2.jpg') no-repeat center center;
+    margin-left: 0;
+    padding-bottom: 40px;
+}
+.cameras-headline{
+    font-family: 'open_sansbold', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    padding-left: 43px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+.cameras-decsr{
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 43px;
+    margin-bottom: 190px;
+}
+.footer{
+    display: flex;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    justify-content: center;
+}
+.twitter, .facebook{
+    flex-basis: 3%;
+}
+.footer-copyright{
+    flex-basis: 94%;
+    font-family: 'open_sansregular', sans-serif;
+    color: #898691;
+    font-size: 14px;
+}
