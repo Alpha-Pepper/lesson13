@@ -201,7 +201,7 @@ body{
     margin-bottom: 77px;
     align-items: center;
 }   
-.header-menu a{
+.header-menu{
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 34px;
@@ -219,7 +219,7 @@ body{
 .header-logo{
     margin-bottom: 8px;
 }
-.header-button-search a{
+.header-button-search{
     padding-right: 34px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -232,6 +232,23 @@ body{
 .home{
     background: url('img/Shape\ 1.jpg') no-repeat center center;
     padding-bottom: 40px;
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 768px){
+    .home{
+        width: 82%;
+        margin-left: 9%;
+        margin-right: 9%;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .home{
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 10px;
+    }
 }
 .text{
     font-family: 'open_sansbold', sans-serif;
@@ -297,17 +314,20 @@ a{
     padding-bottom: 40px;
     margin-bottom: 20px;
 }
-@media screen and (max-width: 740px) and (min-width: 410px){
+@media screen and (max-width: 768px){
     .accessories{
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 82%;
+        margin-left: 9%;
+        margin-right: 9%;
+        margin-bottom: 20px;
     }
 }
-@media screen and (max-width: 410px){
+@media screen and (max-width: 320px){
     .accessories{
-        width: 100%;
-        margin-right: 0;
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 20px;
     }
 }
 .accessories-headline{
@@ -332,13 +352,20 @@ a{
     text-align: center;
     margin-bottom: 20px;
 }
-@media screen and (max-width: 740px){
+@media screen and (max-width: 768px){
     .Subscribe{
-        width: 100%;
-        margin-left: 0%;
-        margin-right: 0%;
-        padding-top: 38px;
-        padding-bottom: 20px;
+        width: 82%;
+        margin-left: 9%;
+        margin-right: 9%;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .Subscribe{
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 10px;
     }
 }
 .Subscribe-headline{
@@ -365,7 +392,7 @@ a{
     width: 75%;
     margin-bottom: 20px;
 }
-.Subscribe-button a{
+.Subscribe-button{
     display: inline-block;
     font-family: 'open_sansbold', sans-serif;
     color: #ffffff;
@@ -389,11 +416,20 @@ a{
     text-align: center;
     padding-bottom: 40px;
 }
-@media screen and (max-width: 740px){
+@media screen and (max-width: 768px){
     .review-cameras{
-        width: 100%;
-        margin-left: 0%;
-        margin-right: 0%;
+        width: 40%;
+        margin-left: 9%;
+        margin-right: 2%;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .review-cameras{
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 10px;
     }
 }
 .text-review{
@@ -409,7 +445,8 @@ a{
 
 }
 .review-button{
-    display: inline-block;
+    display: block;
+    margin: auto;
     width: 93px;
     background: #ffe18e;
 }
@@ -421,10 +458,19 @@ a{
     text-align: center;
     padding-bottom: 40px;
 }
-@media screen and (max-width: 740px){
+@media screen and (max-width: 768px){
     .review-sound{
-        width: 100%;
-        margin-right: 0%;
+        width: 40%;
+        margin-right: 9%;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .review-sound{
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 10px;
     }
 }
 .review-headline-sound{
@@ -442,16 +488,19 @@ a{
     margin-left: 0;
     padding-bottom: 40px;
 }
-@media screen and (max-width: 740px) and (min-width: 500px){
+@media screen and (max-width: 768px){
     .cameras{
         width: 60%;
         margin-left: 20%;
         margin-right: 20%;
+    
     }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 320px){
     .cameras{
-        width: 100%;
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
     }
 }
 .cameras-headline{
@@ -476,7 +525,7 @@ a{
     justify-content: center;
 }
 .twitter, .facebook{
-    flex-basis: 3%;
+    flex-basis: 30px;
 }
 .footer-copyright{
     flex-basis: 94%;
